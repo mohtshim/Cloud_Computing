@@ -1,49 +1,10 @@
-# Contents {#contents .TOC-Heading}
-
-[Overview: [2](#overview)](#overview)
-
-[Architecture: [2](#architecture)](#architecture)
-
-[Instruction: [2](#instruction)](#instruction)
-
-#  
-
-# 
-
-# 
-
-# 
-
-# 
-
-# 
-
-# 
-
-# 
-
-# 
-
-# 
-
-# 
-
-# 
-
-# 
-
-# 
-
-# 
-
 # **Overview:**
 
-In this runbook we will see that how we can disable the internet
-connection in the azure virtual machine.
+This runbook shows that how we can disable internet in the azure virtual machine.
 
 # **Architecture:**
 
-![](media/image1.png){width="6.5in" height="3.8381944444444445in"}
+![image](https://user-images.githubusercontent.com/46097990/187653467-4bc2f462-6a77-4d5e-9a6e-3d9b3b68f340.png)
 
 # **Instruction:**
 
