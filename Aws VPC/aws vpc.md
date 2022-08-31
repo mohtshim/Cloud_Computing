@@ -20,6 +20,7 @@ port 22 (AWS)
     3. Ipv4 CIDR: *choose that CIDR you want to give to your subnet
     4.* No IPv6
     Apply tags but not necessary here.\
+    
     ![image](https://user-images.githubusercontent.com/46097990/187625251-203515d1-a535-437b-89a6-0f7485aa8622.png)
 
     Click on your **Create VPC** and you have your first VPC created with
@@ -36,7 +37,9 @@ port 22 (AWS)
     1. Subnet name
     2. Availability zone
     3. IPv4 CIDR block\
+    
     ![image](https://user-images.githubusercontent.com/46097990/187625423-a6317327-bd34-47cc-bfa6-27f7391051c2.png)\
+    
     You need to create 2 subnets in which one will be public, and one will
     be private. You can divide your VPC IPv4 into 2 parts for your 2 subnets
     for example, if you create a VPC with CIDR block 10.0.0.0/24, it
@@ -55,7 +58,9 @@ port 22 (AWS)
     2. Description 
     3. VPC 
     Add the inbound rule to allow only port 22\
+    
     ![image](https://user-images.githubusercontent.com/46097990/187625952-99bb3bf4-0859-4b34-89de-57c78ed315c8.png)\
+    
     Click on **create security group.** Create another security group
     for another subnet which is private but for that inbound rules will
     be different as we don't want the source to be anywhere.\
