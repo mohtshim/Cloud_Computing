@@ -29,7 +29,7 @@ machine is as follows.
     security group and add outbound rule to it and then you are good to
     go. If not follow the next steps
 
-3.  Assign your VM to newly created security group\
+3.  Assign your VM to newly created security group \
     go to your VM -\> Change the NSG to new one.
 
 4.  Now for the test connectivity if your VM is windows then\
