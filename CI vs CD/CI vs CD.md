@@ -10,7 +10,7 @@ In the continous delivery process all the steps are automatic except that "push 
 that to the production. It will not ony increase the number of the deployments significantly but also whenever the new artifacts (Code/features which passes through CI)
 becomes ready it will be ready for the deployment.
 
-# Figure
+## Figure
 Below figure validates the discussion that we done above.
 ![image](https://user-images.githubusercontent.com/46097990/189814927-f0a16a76-a745-4c8f-98f1-3f05e9bbbf0b.png)
 
