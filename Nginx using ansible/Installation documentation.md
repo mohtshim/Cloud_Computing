@@ -10,31 +10,27 @@ This will open a nano editor.
 
 Write these command in the playbook and save it.
 ```
-- name: installing mysql
-  become: yes
+--
+- name: Install nginx
   hosts: localhost
+  become: true
+
   tasks:
-    - name: Installing Mysql  and dependencies
-      package:
-       name: "{{item}}"
-       state: present
-       update_cache: yes
-     loop:
-       - mysql-server
-       - mysql-client 
-       - python3-mysqldb
-       - libmysqlclient-dev
-     become: yes
-    - name: start and enable mysql service
-      service:
-        name: mysql
-        state: started
-        enabled: yes
-  handlers:
-    - name: Restart mysql
-      service:
-        name: mysql
-        state: restarted
+  - name: Add epel-release repo
+    yum:
+      name: epel-release
+      state: present
+
+  - name: Install nginx
+    yum:
+      name: nginx
+      state: present
+
+  - name: Start NGiNX
+    service:
+      name: nginx
+      state: started
+
 ```
 After writing that in that playbook we can check the syntax of the playbook that whether it is correct or not.
 ```
