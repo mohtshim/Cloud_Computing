@@ -46,4 +46,4 @@ ansible-playbook -K playbook.yml
 ```
 Its gonna ask for your account password for the sudo privilages. After running the playbook we have mysql running on our master node.
 
-![image](https://user-images.githubusercontent.com/46097990/190963641-11c328fd-0fc0-4942-886c-4be039758d50.png)
+![image](https://user-images.githubusercontent.com/46097990/190971485-468f9ace-c4d8-44f8-b36b-d335ada2cc0f.png)
